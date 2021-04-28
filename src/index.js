@@ -6,9 +6,11 @@ import GlobalStyle from './styles/GlobalStyle';
 import { ThemeProvider } from 'styled-components';
 
 ReactDOM.render(
-  <ThemeProvider theme={Theme}>
+  <>
     <GlobalStyle />
-    <Routes />
-  </ThemeProvider>,
+    <ThemeProvider theme={Theme}>
+      <Routes />
+    </ThemeProvider>
+  </>,
   document.getElementById('root')
 );

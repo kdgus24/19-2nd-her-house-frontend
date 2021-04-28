@@ -2,12 +2,13 @@ import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
 
 const GlobalStyle = createGlobalStyle`
-  ${reset}
+    ${reset}
 
-	* {
+	  * {
         text-decoration: none;
         box-sizing: border-box;
         font-family: 'Roboto', sans-serif;
+        font-size: 14px;
       }
       
     input {
@@ -16,6 +17,7 @@ const GlobalStyle = createGlobalStyle`
       }
     a {
         text-decoration: none;
+        color: black;
       }
     button {
         border-style: none;
