@@ -12,5 +12,6 @@ ReactDOM.render(
       <Routes />
     </ThemeProvider>
   </>,
+
   document.getElementById('root')
 );

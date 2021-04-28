@@ -6,7 +6,9 @@ function CategoryLocation({ categoryList, clickId }) {
   return (
     <LocationWrap>
       <Location>가구</Location>
-      <Location>{categoryList && categoryList[clickId].name}</Location>
+      <Location>
+        {categoryList.length > 0 && categoryList[clickId].name}
+      </Location>
     </LocationWrap>
   );
 }
