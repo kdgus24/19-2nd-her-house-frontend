@@ -9,8 +9,10 @@ const GlobalStyle = createGlobalStyle`
       padding : 0;
       box-sizing : border-box;
       outline : none;
-      font-size : 16px;
-      font-family: 'Roboto', sans-serif;
+      }
+      #root {
+        font-size : 16px;
+        font-family: 'Noto Sans KR', sans-serif;
       }
       
     input {
