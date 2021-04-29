@@ -7,7 +7,8 @@ function Routes() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={Category} />
+        <Route exact path="/" component={Main} />
+        <Route exact path="/category" component={Category} />
       </Switch>
     </Router>
   );
